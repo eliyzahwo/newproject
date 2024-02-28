@@ -27,7 +27,7 @@
  Target ElectronizeWindowsTargetSample => _ => _
         .DependsOn(CompileSample)
         .Executes(() =>
-        {
+        {//hello
             var sample = SourceDirectory / DemoTargetLibName;
             var cli = SourceDirectory / CliTargetLibName / $"{CliTargetLibName}.csproj";
             var args = "build /target win /electron-params \"--publish never\"";
