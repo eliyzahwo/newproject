@@ -13,7 +13,7 @@
                 Version = $"{Version}-alpha.{buildNumber}";
             }
         }
-
+//yes
   Target ElectronizeGenericTargetSample => _ => _
         .DependsOn(CompileSample)
         .Executes(() =>
